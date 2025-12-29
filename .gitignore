@@ -17,6 +17,8 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+# Allow .env.example files (safe to commit)
+!.env.example
 
 # Logs
 npm-debug.log*
